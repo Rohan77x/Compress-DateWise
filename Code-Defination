@@ -2,12 +2,10 @@ This script compresses each file in a specified source directory, appends the mo
 Usage Instructions
 Save the script to a file, e.g., compress_files.sh.
 Make the script executable:
-bash
-Copy code
+
 chmod +x compress_files.sh
 Run the script with the source and target directories as arguments:
-bash
-Copy code
+
 ./compress_files.sh /path/to/source /path/to/target
 Example
 Source Directory: /root/rohan
@@ -15,8 +13,7 @@ Contains files: file1, file2
 Target Directory: /backup
 Running the script:
 
-bash
-Copy code
+
 ./compress_files.sh /root/rohan /backup
 After execution, the /backup directory will contain:
 
