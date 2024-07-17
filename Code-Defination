@@ -1,0 +1,25 @@
+This script compresses each file in a specified source directory, appends the modification date and time to the filename, and moves the compressed files to a specified target directory. This can be useful for archiving files with their modification timestamps for better organization and retrieval.
+Usage Instructions
+Save the script to a file, e.g., compress_files.sh.
+Make the script executable:
+bash
+Copy code
+chmod +x compress_files.sh
+Run the script with the source and target directories as arguments:
+bash
+Copy code
+./compress_files.sh /path/to/source /path/to/target
+Example
+Source Directory: /root/rohan
+Contains files: file1, file2
+Target Directory: /backup
+Running the script:
+
+bash
+Copy code
+./compress_files.sh /root/rohan /backup
+After execution, the /backup directory will contain:
+
+file1_2024-07-17_14-23-05.tar.gz
+file2_2024-07-17_15-30-12.tar.gz
+Each compressed file includes the original file name and its modification timestamp.

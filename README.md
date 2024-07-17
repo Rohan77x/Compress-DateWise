@@ -1,1 +1,0 @@
-This script compresses each file in a specified source directory, appends the modification date and time to the filename, and moves the compressed files to a specified target directory. This can be useful for archiving files with their modification timestamps for better organization and retrieval.
